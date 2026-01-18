@@ -1,9 +1,13 @@
 import React from "react";
 import bookImage from "../../../assets/books.jpg";
+import { Helmet } from "react-helmet-async";
 
 const Banner = () => {
   return (
     <div className="">
+      <Helmet>
+        <title>Hello World</title>
+      </Helmet>
       <div className="w-full h-[70vh]">
         <img
           className="w-full h-full object-cover"

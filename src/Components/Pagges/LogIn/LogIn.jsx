@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router";
 
 const LogIn = () => {
@@ -6,8 +7,11 @@ const LogIn = () => {
     console.log("Google Sign-In clicked");
   };
   return (
+    
     <div className="py-20">
-      <h2>place log in</h2>
+      <Helmet>
+        <title>logo</title>
+      </Helmet>
 
       <div>
         <form>

@@ -5,6 +5,7 @@ import Books from '../Books/Books';
 const Home = () => {
     return (
         <>
+        
            <Banner/> 
            <Books/>
         </>
